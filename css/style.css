@@ -3,13 +3,13 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 5px;
     text-align: center;
     box-sizing: content-box;
 }
 header h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font: bold;
     float: right;
     margin-right: 33%;
