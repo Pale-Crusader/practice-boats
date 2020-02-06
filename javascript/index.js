@@ -1,7 +1,19 @@
-alert("Perpare for amazing transportation options!");
+Function confirmClick() {
+confirm("If you're ready click to answer an important question.");
+};
 
-confirm("If you're ready click to answer an important question.")
+Function conditionalGreeting() {
+    
+confirmClick(){
+    if true; {
+        alert("Perpare for amazing transportation options!") + likeBoats();
+    }
+    else {
+        alert("Are you sure?");
+    }
+};
 
+Function likeBoats() {
 var greeting = prompt("Like Boats? 1 = Yes 2 = No");
 var reply;
 
@@ -13,3 +25,7 @@ else {
 }
 
 document.write('<h3>' + reply + '</h3>');
+}
+
+confirmClick();
+conditionalGreeting();
