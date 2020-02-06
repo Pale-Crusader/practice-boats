@@ -6,7 +6,8 @@ section nav {background-color: blue;margin-top:5xp;text-decoration: none;border-
 section nav li {color: white;margin-right: 20%;display: inline;border-radius: 5px;}
 main article {display: inline-block; width: 30%;background-color: red;height: fit-content;text-align: center;border-radius: 5px;}
 main article img {width: 50%;border-radius: 5px;min-height: 40%;}
-main article {min-height: 100%;}
+#shortimage {width:55%}
+.team {display: table-column;}
 main article p {font: bold;color: white;}
 main {text-align: center;}
 footer nav {background-color:gray;margin-top:5xp;text-decoration: none;text-align: center;}
