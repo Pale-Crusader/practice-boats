@@ -1,31 +1,23 @@
-Function confirmClick() {
-confirm("If you're ready click to answer an important question.");
-};
-
-Function conditionalGreeting() {
-    
-confirmClick(){
-    if true; {
-        alert("Perpare for amazing transportation options!") + likeBoats();
+function confirmClick() {
+var answer = confirm("If you're ready click to answer an important question.");
+    console.log(answer);
+    if (answer) === true {
+    alert("Perpare for amazing transportation options!");
     }
     else {
-        alert("Are you sure?");
-    }
+    alert("Are you sure?");
+}
 };
 
-Function likeBoats() {
+function likeBoats() {
 var greeting = prompt("Like Boats? 1 = Yes 2 = No");
 var reply;
 
-if (greeting == 2) {
+if (greeting === "2") {
     reply = 'You should check out the trucks and planes parts of our page!.';
 }
 else {
     reply = 'Welcome to Our Boat Page!';
 }
-
-document.write('<h3>' + reply + '</h3>');
+return reply;
 }
-
-confirmClick();
-conditionalGreeting();
