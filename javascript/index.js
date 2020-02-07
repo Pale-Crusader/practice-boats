@@ -1,7 +1,7 @@
 function confirmClick() {
 var answer = confirm("If you're ready click to answer an important question.");
     console.log(answer);
-    if (answer) === true {
+    if (answer) true {
     alert("Perpare for amazing transportation options!");
     }
     else {
